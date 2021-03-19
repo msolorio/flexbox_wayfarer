@@ -7,6 +7,10 @@
   color: #333333;
 }
 
+.body {
+  /* width: fit-content; */
+}
+
 /* HEADER ************************************************************** */
 .header {
   padding: 20px;
@@ -120,4 +124,68 @@
   display: flex;
   justify-content: center;
   padding: 15px 0;
+}
+
+@media (min-width: 768px) {
+  .header {
+    justify-content: left;
+  }
+
+  .content {
+    display: flex;
+  }
+
+  .cities-sidebar {
+    width: 40%;
+    min-width: 400px;
+    margin-bottom: 0;
+  }
+
+  .cities-list-header {
+    justify-content: flex-start;
+    font-size: 40px;
+  }
+
+  .city-selector {
+    justify-content: flex-start;
+    padding: 30px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  .city-detail {
+    display: flex;
+   flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .city-content {
+    min-width: 250px;
+  }
+
+  .city-name {
+    justify-content: flex-start;
+    font-size: 40px;
+  }
+
+  .city-country {
+    justify-content: flex-start;
+    font-size: 30px;
+  }
+
+  .city-img {
+    width: 50%;
+    min-width: 270px
+  }
+
+  .posts-header {
+    justify-content: flex-start;
+  }
+
+  .post-title {
+    justify-content: flex-start;
+  }
 }

@@ -7,56 +7,58 @@
   <link rel="stylesheet" href="./main.css">
   <title>Flexbox Wayfarer</title>
 </head>
-<body>
+<body class="body">
   <header class="header">
     <img class="header-img" src="https://picsum.photos/id/10/200/200" alt="logo">
     <h1 class="header-title">Flexbox Wayfarer</h1>
   </header>
-  <aside class="cities-sidebar">
-    <h2 class="cities-list-header">Cities</h2>
-    <ul class="cities-list">
-      <li class="city-selector">London</li>
-      <li class="city-selector">Sydney</li>
-      <li class="city-selector">San Francisco</li>
-      <li class="city-selector">Seattle</li>
-    </ul>
-  </aside>
-  <main class="main">
-    <section class="city-detail">
-      <div>
-        <h2 class="city-name">London</h2>
-        <h3 class="city-country">United Kingdom</h3>
-      </div>
-      <img class="city-img" src="https://picsum.photos/id/1047/200/200" alt="">
-    </section>
-
-    <section class="posts-section">
-      <h2 class="posts-header">Posts</h2>
-      <ul class="posts-list">
-        <li class="post">
-          <img class="post-img" src="" alt="">
-          <div>
-            <h3 class="post-title">Title</h3>
-            <p class="post-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, beatae maxime! Ratione, vitae magnam? Eligendi ad distinctio non odit fugit, exercitationem eum? Distinctio fugiat suscipit expedita iste voluptatibus, earum eos.</p>
-          </div>
-        </li>
-        <li class="post">
-          <img class="post-img" src="" alt="">
-          <div>
-            <h3 class="post-title">Title</h3>
-            <p class="post-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, beatae maxime! Ratione, vitae magnam? Eligendi ad distinctio non odit fugit, exercitationem eum? Distinctio fugiat suscipit expedita iste voluptatibus, earum eos.</p>
-          </div>
-        </li>
-        <li class="post">
-          <img class="post-img" src="" alt="">
-          <div>
-            <h3 class="post-title">Title</h3>
-            <p class="post-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, beatae maxime! Ratione, vitae magnam? Eligendi ad distinctio non odit fugit, exercitationem eum? Distinctio fugiat suscipit expedita iste voluptatibus, earum eos.</p>
-          </div>
-        </li>
+  <div class="content">
+    <aside class="cities-sidebar">
+      <h2 class="cities-list-header">Cities</h2>
+      <ul class="cities-list">
+        <li class="city-selector">London</li>
+        <li class="city-selector">Sydney</li>
+        <li class="city-selector">San Francisco</li>
+        <li class="city-selector">Seattle</li>
       </ul>
-    </section>
-  </main>
+    </aside>
+    <main class="main">
+      <section class="city-detail">
+        <div class="city-content">
+          <h2 class="city-name">London</h2>
+          <h3 class="city-country">United Kingdom</h3>
+        </div>
+        <img class="city-img" src="https://picsum.photos/id/1047/800/400" alt="">
+      </section>
+  
+      <section class="posts-section">
+        <h2 class="posts-header">Posts</h2>
+        <ul class="posts-list">
+          <li class="post">
+            <img class="post-img" src="" alt="">
+            <div>
+              <h3 class="post-title">Title</h3>
+              <p class="post-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, beatae maxime! Ratione, vitae magnam? Eligendi ad distinctio non odit fugit, exercitationem eum? Distinctio fugiat suscipit expedita iste voluptatibus, earum eos.</p>
+            </div>
+          </li>
+          <li class="post">
+            <img class="post-img" src="" alt="">
+            <div>
+              <h3 class="post-title">Title</h3>
+              <p class="post-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, beatae maxime! Ratione, vitae magnam? Eligendi ad distinctio non odit fugit, exercitationem eum? Distinctio fugiat suscipit expedita iste voluptatibus, earum eos.</p>
+            </div>
+          </li>
+          <li class="post">
+            <img class="post-img" src="" alt="">
+            <div>
+              <h3 class="post-title">Title</h3>
+              <p class="post-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, beatae maxime! Ratione, vitae magnam? Eligendi ad distinctio non odit fugit, exercitationem eum? Distinctio fugiat suscipit expedita iste voluptatibus, earum eos.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
 
   <footer class="footer">
     &copy;Flexbox Wayfarer
