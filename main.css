@@ -1,0 +1,123 @@
+/* RESET ************************************************************** */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  color: #333333;
+}
+
+/* HEADER ************************************************************** */
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c1c1c1;
+  border-bottom: 2px solid #b6b6b6;
+  margin-bottom: 20px;
+}
+
+.header-img {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  border: 1px solid #8b8b8b;
+}
+
+/* CITIES **************************************************************** */
+.cities-sidebar {
+  background-color: #c1c1c1;
+  border-top: 2px solid #b6b6b6;
+  border-bottom: 2px solid #b6b6b6;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.cities-list-header {
+  margin-bottom: 11px;
+  display: flex;
+  justify-content: center;
+}
+
+.cities-list {
+  list-style: none;
+}
+
+.city-selector {
+  background: #797979;
+  color: #eaeaea;
+  padding: 10px 11px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* CITY DETAIL SECTION ******************************************************* */
+.main {
+  background-color: #c1c1c1;
+  border-top: 2px solid #b6b6b6;
+  border-bottom: 2px solid #b6b6b6;
+  padding: 20px;
+}
+
+.city-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.city-name {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.city-country {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.city-img {
+  width: 200px;
+  height: auto;
+}
+
+/* POSTS SECTION ************************************************************* */
+.posts-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.post {
+  list-style: none;
+  border: 2px solid #b6b6b6;
+  background: #eaeaea;
+  padding: 20px;
+  display: flex;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.post-img {
+  display: none;
+}
+
+.post-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+/* FOOTER ********************************************************************* */
+.footer {
+  background: #555555;
+  color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
